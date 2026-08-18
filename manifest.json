@@ -2,18 +2,18 @@
   "manifest_version": 3,
   "name": "Letterhead",
   "version": "1.0.0",
-  "description": "Set HTTP request headers on domains you explicitly grant. No background page, no content scripts, no telemetry.",
+  "description": "Modify HTTP request and response headers on domains you explicitly grant. No background page, no content scripts, no telemetry.",
   "permissions": ["declarativeNetRequestWithHostAccess", "storage"],
   "optional_host_permissions": ["*://*/*"],
   "icons": {
-    "16": "icon16.png",
-    "32": "icon32.png",
-    "48": "icon48.png",
-    "128": "icon128.png"
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   },
   "action": {
-    "default_popup": "popup.html",
+    "default_popup": "popup/index.html",
     "default_title": "Letterhead",
-    "default_icon": { "16": "icon16.png", "32": "icon32.png" }
+    "default_icon": { "16": "icons/icon16.png", "32": "icons/icon32.png" }
   }
 }
